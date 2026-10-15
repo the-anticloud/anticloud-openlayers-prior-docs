@@ -1,0 +1,641 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:ebb4be41-46ad-505c-a1d2-12d1d58576ae",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T13:09:24Z",
+    "component": {
+      "type": "application",
+      "name": "OPENLAYERS_PRIOR_DOCS",
+      "version": "69e07d8ad933",
+      "bom-ref": "pkg:generic/anticloud/OPENLAYERS_PRIOR_DOCS@69e07d8ad933",
+      "purl": "pkg:generic/anticloud/OPENLAYERS_PRIOR_DOCS@69e07d8ad933",
+      "licenses": [
+        {
+          "license": {
+            "id": "UNKNOWN"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "69e07d8ad933c3081cc10b8bb4a64023917661aa"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/openlayers/openlayers"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "@types/rbush",
+      "version": "4.0.0",
+      "purl": "pkg:npm/@types/rbush@4.0.0",
+      "bom-ref": "npm/@types/rbush@4.0.0"
+    },
+    {
+      "type": "library",
+      "name": "earcut",
+      "version": "^3.0.0",
+      "purl": "pkg:npm/earcut@^3.0.0",
+      "bom-ref": "npm/earcut@^3.0.0"
+    },
+    {
+      "type": "library",
+      "name": "geotiff",
+      "version": "^3.1.0-beta.0",
+      "purl": "pkg:npm/geotiff@^3.1.0-beta.0",
+      "bom-ref": "npm/geotiff@^3.1.0-beta.0"
+    },
+    {
+      "type": "library",
+      "name": "pbf",
+      "version": "5.1.2",
+      "purl": "pkg:npm/pbf@5.1.2",
+      "bom-ref": "npm/pbf@5.1.2"
+    },
+    {
+      "type": "library",
+      "name": "rbush",
+      "version": "^4.0.0",
+      "purl": "pkg:npm/rbush@^4.0.0",
+      "bom-ref": "npm/rbush@^4.0.0"
+    },
+    {
+      "type": "library",
+      "name": "zarrita",
+      "version": "^0.7.1",
+      "purl": "pkg:npm/zarrita@^0.7.1",
+      "bom-ref": "npm/zarrita@^0.7.1"
+    },
+    {
+      "type": "library",
+      "name": "@codemirror/lang-javascript",
+      "version": "^6.2.2",
+      "purl": "pkg:npm/@codemirror/lang-javascript@^6.2.2",
+      "bom-ref": "npm/@codemirror/lang-javascript@^6.2.2"
+    },
+    {
+      "type": "library",
+      "name": "@metalsmith/in-place",
+      "version": "^5.0.0",
+      "purl": "pkg:npm/@metalsmith/in-place@^5.0.0",
+      "bom-ref": "npm/@metalsmith/in-place@^5.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@metalsmith/layouts",
+      "version": "^3.0.0",
+      "purl": "pkg:npm/@metalsmith/layouts@^3.0.0",
+      "bom-ref": "npm/@metalsmith/layouts@^3.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@metalsmith/markdown",
+      "version": "^1.6.0",
+      "purl": "pkg:npm/@metalsmith/markdown@^1.6.0",
+      "bom-ref": "npm/@metalsmith/markdown@^1.6.0"
+    },
+    {
+      "type": "library",
+      "name": "@octokit/rest",
+      "version": "^22.0.0",
+      "purl": "pkg:npm/@octokit/rest@^22.0.0",
+      "bom-ref": "npm/@octokit/rest@^22.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@planet/ol-numpytiles",
+      "version": "^3.0.1",
+      "purl": "pkg:npm/@planet/ol-numpytiles@^3.0.1",
+      "bom-ref": "npm/@planet/ol-numpytiles@^3.0.1"
+    },
+    {
+      "type": "library",
+      "name": "@rollup/plugin-alias",
+      "version": "^6.0.0",
+      "purl": "pkg:npm/@rollup/plugin-alias@^6.0.0",
+      "bom-ref": "npm/@rollup/plugin-alias@^6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@rollup/plugin-commonjs",
+      "version": "^29.0.0",
+      "purl": "pkg:npm/@rollup/plugin-commonjs@^29.0.0",
+      "bom-ref": "npm/@rollup/plugin-commonjs@^29.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@rollup/plugin-node-resolve",
+      "version": "^16.0.0",
+      "purl": "pkg:npm/@rollup/plugin-node-resolve@^16.0.0",
+      "bom-ref": "npm/@rollup/plugin-node-resolve@^16.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@rollup/plugin-terser",
+      "version": "^1.0.0",
+      "purl": "pkg:npm/@rollup/plugin-terser@^1.0.0",
+      "bom-ref": "npm/@rollup/plugin-terser@^1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@turf/along",
+      "version": "^7.1.0",
+      "purl": "pkg:npm/@turf/along@^7.1.0",
+      "bom-ref": "npm/@turf/along@^7.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@turf/length",
+      "version": "^7.1.0",
+      "purl": "pkg:npm/@turf/length@^7.1.0",
+      "bom-ref": "npm/@turf/length@^7.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/arcgis-rest-api",
+      "version": "^10.4.4",
+      "purl": "pkg:npm/@types/arcgis-rest-api@^10.4.4",
+      "bom-ref": "npm/@types/arcgis-rest-api@^10.4.4"
+    },
+    {
+      "type": "library",
+      "name": "@types/d3-array",
+      "version": "^3.2.1",
+      "purl": "pkg:npm/@types/d3-array@^3.2.1",
+      "bom-ref": "npm/@types/d3-array@^3.2.1"
+    },
+    {
+      "type": "library",
+      "name": "@types/d3-fetch",
+      "version": "^3.0.7",
+      "purl": "pkg:npm/@types/d3-fetch@^3.0.7",
+      "bom-ref": "npm/@types/d3-fetch@^3.0.7"
+    },
+    {
+      "type": "library",
+      "name": "@types/d3-geo",
+      "version": "^3.1.0",
+      "purl": "pkg:npm/@types/d3-geo@^3.1.0",
+      "bom-ref": "npm/@types/d3-geo@^3.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/d3-scale",
+      "version": "^4.0.8",
+      "purl": "pkg:npm/@types/d3-scale@^4.0.8",
+      "bom-ref": "npm/@types/d3-scale@^4.0.8"
+    },
+    {
+      "type": "library",
+      "name": "@types/d3-selection",
+      "version": "^3.0.11",
+      "purl": "pkg:npm/@types/d3-selection@^3.0.11",
+      "bom-ref": "npm/@types/d3-selection@^3.0.11"
+    },
+    {
+      "type": "library",
+      "name": "@types/d3-transition",
+      "version": "^3.0.9",
+      "purl": "pkg:npm/@types/d3-transition@^3.0.9",
+      "bom-ref": "npm/@types/d3-transition@^3.0.9"
+    },
+    {
+      "type": "library",
+      "name": "@types/geojson",
+      "version": "^7946.0.7",
+      "purl": "pkg:npm/@types/geojson@^7946.0.7",
+      "bom-ref": "npm/@types/geojson@^7946.0.7"
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "^26.0.1",
+      "purl": "pkg:npm/@types/node@^26.0.1",
+      "bom-ref": "npm/@types/node@^26.0.1"
+    },
+    {
+      "type": "library",
+      "name": "@types/pbf",
+      "version": "^3.0.2",
+      "purl": "pkg:npm/@types/pbf@^3.0.2",
+      "bom-ref": "npm/@types/pbf@^3.0.2"
+    },
+    {
+      "type": "library",
+      "name": "@types/topojson-specification",
+      "version": "^1.0.1",
+      "purl": "pkg:npm/@types/topojson-specification@^1.0.1",
+      "bom-ref": "npm/@types/topojson-specification@^1.0.1"
+    },
+    {
+      "type": "library",
+      "name": "@typescript-eslint/parser",
+      "version": "^8.58.0",
+      "purl": "pkg:npm/@typescript-eslint/parser@^8.58.0",
+      "bom-ref": "npm/@typescript-eslint/parser@^8.58.0"
+    },
+    {
+      "type": "library",
+      "name": "@vitest/browser",
+      "version": "^4.1.8",
+      "purl": "pkg:npm/@vitest/browser@^4.1.8",
+      "bom-ref": "npm/@vitest/browser@^4.1.8"
+    },
+    {
+      "type": "library",
+      "name": "@vitest/browser-playwright",
+      "version": "^4.1.8",
+      "purl": "pkg:npm/@vitest/browser-playwright@^4.1.8",
+      "bom-ref": "npm/@vitest/browser-playwright@^4.1.8"
+    },
+    {
+      "type": "library",
+      "name": "chai",
+      "version": "^6.2.2",
+      "purl": "pkg:npm/chai@^6.2.2",
+      "bom-ref": "npm/chai@^6.2.2"
+    },
+    {
+      "type": "library",
+      "name": "chaikin-smooth",
+      "version": "^1.0.4",
+      "purl": "pkg:npm/chaikin-smooth@^1.0.4",
+      "bom-ref": "npm/chaikin-smooth@^1.0.4"
+    },
+    {
+      "type": "library",
+      "name": "chroma-js",
+      "version": "^3.1.1",
+      "purl": "pkg:npm/chroma-js@^3.1.1",
+      "bom-ref": "npm/chroma-js@^3.1.1"
+    },
+    {
+      "type": "library",
+      "name": "codemirror",
+      "version": "^6.0.1",
+      "purl": "pkg:npm/codemirror@^6.0.1",
+      "bom-ref": "npm/codemirror@^6.0.1"
+    },
+    {
+      "type": "library",
+      "name": "colormap",
+      "version": "^2.3.2",
+      "purl": "pkg:npm/colormap@^2.3.2",
+      "bom-ref": "npm/colormap@^2.3.2"
+    },
+    {
+      "type": "library",
+      "name": "d3-array",
+      "version": "^3.2.4",
+      "purl": "pkg:npm/d3-array@^3.2.4",
+      "bom-ref": "npm/d3-array@^3.2.4"
+    },
+    {
+      "type": "library",
+      "name": "d3-fetch",
+      "version": "^3.0.1",
+      "purl": "pkg:npm/d3-fetch@^3.0.1",
+      "bom-ref": "npm/d3-fetch@^3.0.1"
+    },
+    {
+      "type": "library",
+      "name": "d3-geo",
+      "version": "^3.1.1",
+      "purl": "pkg:npm/d3-geo@^3.1.1",
+      "bom-ref": "npm/d3-geo@^3.1.1"
+    },
+    {
+      "type": "library",
+      "name": "d3-scale",
+      "version": "^4.0.2",
+      "purl": "pkg:npm/d3-scale@^4.0.2",
+      "bom-ref": "npm/d3-scale@^4.0.2"
+    },
+    {
+      "type": "library",
+      "name": "d3-selection",
+      "version": "^3.0.0",
+      "purl": "pkg:npm/d3-selection@^3.0.0",
+      "bom-ref": "npm/d3-selection@^3.0.0"
+    },
+    {
+      "type": "library",
+      "name": "d3-transition",
+      "version": "^3.0.1",
+      "purl": "pkg:npm/d3-transition@^3.0.1",
+      "bom-ref": "npm/d3-transition@^3.0.1"
+    },
+    {
+      "type": "library",
+      "name": "es-main",
+      "version": "^1.0.2",
+      "purl": "pkg:npm/es-main@^1.0.2",
+      "bom-ref": "npm/es-main@^1.0.2"
+    },
+    {
+      "type": "library",
+      "name": "eslint",
+      "version": "^10.1.0",
+      "purl": "pkg:npm/eslint@^10.1.0",
+      "bom-ref": "npm/eslint@^10.1.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint-config-openlayers",
+      "version": "^21.0.0",
+      "purl": "pkg:npm/eslint-config-openlayers@^21.0.0",
+      "bom-ref": "npm/eslint-config-openlayers@^21.0.0"
+    },
+    {
+      "type": "library",
+      "name": "espree",
+      "version": "^11.0.0",
+      "purl": "pkg:npm/espree@^11.0.0",
+      "bom-ref": "npm/espree@^11.0.0"
+    },
+    {
+      "type": "library",
+      "name": "express",
+      "version": "^5.1.0",
+      "purl": "pkg:npm/express@^5.1.0",
+      "bom-ref": "npm/express@^5.1.0"
+    },
+    {
+      "type": "library",
+      "name": "fflate",
+      "version": "^0.8.2",
+      "purl": "pkg:npm/fflate@^0.8.2",
+      "bom-ref": "npm/fflate@^0.8.2"
+    },
+    {
+      "type": "library",
+      "name": "front-matter",
+      "version": "^4.0.0",
+      "purl": "pkg:npm/front-matter@^4.0.0",
+      "bom-ref": "npm/front-matter@^4.0.0"
+    },
+    {
+      "type": "library",
+      "name": "fs-extra",
+      "version": "^11.1.0",
+      "purl": "pkg:npm/fs-extra@^11.1.0",
+      "bom-ref": "npm/fs-extra@^11.1.0"
+    },
+    {
+      "type": "library",
+      "name": "geojson-vt",
+      "version": "^4.0.2",
+      "purl": "pkg:npm/geojson-vt@^4.0.2",
+      "bom-ref": "npm/geojson-vt@^4.0.2"
+    },
+    {
+      "type": "library",
+      "name": "globby",
+      "version": "^16.0.0",
+      "purl": "pkg:npm/globby@^16.0.0",
+      "bom-ref": "npm/globby@^16.0.0"
+    },
+    {
+      "type": "library",
+      "name": "handlebars",
+      "version": "4.7.9",
+      "purl": "pkg:npm/handlebars@4.7.9",
+      "bom-ref": "npm/handlebars@4.7.9"
+    },
+    {
+      "type": "library",
+      "name": "html2canvas",
+      "version": "^1.4.1",
+      "purl": "pkg:npm/html2canvas@^1.4.1",
+      "bom-ref": "npm/html2canvas@^1.4.1"
+    },
+    {
+      "type": "library",
+      "name": "jsdoc",
+      "version": "4.0.5",
+      "purl": "pkg:npm/jsdoc@4.0.5",
+      "bom-ref": "npm/jsdoc@4.0.5"
+    },
+    {
+      "type": "library",
+      "name": "jsdoc-plugin-intersection",
+      "version": "^1.0.4",
+      "purl": "pkg:npm/jsdoc-plugin-intersection@^1.0.4",
+      "bom-ref": "npm/jsdoc-plugin-intersection@^1.0.4"
+    },
+    {
+      "type": "library",
+      "name": "jsdoc-plugin-typescript",
+      "version": "^3.0.0",
+      "purl": "pkg:npm/jsdoc-plugin-typescript@^3.0.0",
+      "bom-ref": "npm/jsdoc-plugin-typescript@^3.0.0"
+    },
+    {
+      "type": "library",
+      "name": "jspdf",
+      "version": "^4.0.0",
+      "purl": "pkg:npm/jspdf@^4.0.0",
+      "bom-ref": "npm/jspdf@^4.0.0"
+    },
+    {
+      "type": "library",
+      "name": "jstransformer-handlebars",
+      "version": "^1.2.0",
+      "purl": "pkg:npm/jstransformer-handlebars@^1.2.0",
+      "bom-ref": "npm/jstransformer-handlebars@^1.2.0"
+    },
+    {
+      "type": "library",
+      "name": "jsts",
+      "version": "^2.11.3",
+      "purl": "pkg:npm/jsts@^2.11.3",
+      "bom-ref": "npm/jsts@^2.11.3"
+    },
+    {
+      "type": "library",
+      "name": "loglevelnext",
+      "version": "^6.0.0",
+      "purl": "pkg:npm/loglevelnext@^6.0.0",
+      "bom-ref": "npm/loglevelnext@^6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "marked",
+      "version": "18.0.7",
+      "purl": "pkg:npm/marked@18.0.7",
+      "bom-ref": "npm/marked@18.0.7"
+    },
+    {
+      "type": "library",
+      "name": "metalsmith",
+      "version": "^2.5.0",
+      "purl": "pkg:npm/metalsmith@^2.5.0",
+      "bom-ref": "npm/metalsmith@^2.5.0"
+    },
+    {
+      "type": "library",
+      "name": "monotone-chain-convex-hull",
+      "version": "^1.1.0",
+      "purl": "pkg:npm/monotone-chain-convex-hull@^1.1.0",
+      "bom-ref": "npm/monotone-chain-convex-hull@^1.1.0"
+    },
+    {
+      "type": "library",
+      "name": "ol-mapbox-style",
+      "version": "^13.4.1",
+      "purl": "pkg:npm/ol-mapbox-style@^13.4.1",
+      "bom-ref": "npm/ol-mapbox-style@^13.4.1"
+    },
+    {
+      "type": "library",
+      "name": "ol-stac",
+      "version": "^1.2.0",
+      "purl": "pkg:npm/ol-stac@^1.2.0",
+      "bom-ref": "npm/ol-stac@^1.2.0"
+    },
+    {
+      "type": "library",
+      "name": "pixelmatch",
+      "version": "^7.1.0",
+      "purl": "pkg:npm/pixelmatch@^7.1.0",
+      "bom-ref": "npm/pixelmatch@^7.1.0"
+    },
+    {
+      "type": "library",
+      "name": "playwright",
+      "version": "^1.60.0",
+      "purl": "pkg:npm/playwright@^1.60.0",
+      "bom-ref": "npm/playwright@^1.60.0"
+    },
+    {
+      "type": "library",
+      "name": "pmtiles",
+      "version": "^4.0.1",
+      "purl": "pkg:npm/pmtiles@^4.0.1",
+      "bom-ref": "npm/pmtiles@^4.0.1"
+    },
+    {
+      "type": "library",
+      "name": "pngjs",
+      "version": "^7.0.0",
+      "purl": "pkg:npm/pngjs@^7.0.0",
+      "bom-ref": "npm/pngjs@^7.0.0"
+    },
+    {
+      "type": "library",
+      "name": "proj4",
+      "version": "2.20.9",
+      "purl": "pkg:npm/proj4@2.20.9",
+      "bom-ref": "npm/proj4@2.20.9"
+    },
+    {
+      "type": "library",
+      "name": "puppeteer",
+      "version": "^25.1.0",
+      "purl": "pkg:npm/puppeteer@^25.1.0",
+      "bom-ref": "npm/puppeteer@^25.1.0"
+    },
+    {
+      "type": "library",
+      "name": "rollup",
+      "version": "^4.1.4",
+      "purl": "pkg:npm/rollup@^4.1.4",
+      "bom-ref": "npm/rollup@^4.1.4"
+    },
+    {
+      "type": "library",
+      "name": "rollup-plugin-external-globals",
+      "version": "^0.13.0",
+      "purl": "pkg:npm/rollup-plugin-external-globals@^0.13.0",
+      "bom-ref": "npm/rollup-plugin-external-globals@^0.13.0"
+    },
+    {
+      "type": "library",
+      "name": "semver",
+      "version": "^7.3.7",
+      "purl": "pkg:npm/semver@^7.3.7",
+      "bom-ref": "npm/semver@^7.3.7"
+    },
+    {
+      "type": "library",
+      "name": "send",
+      "version": "^1.2.1",
+      "purl": "pkg:npm/send@^1.2.1",
+      "bom-ref": "npm/send@^1.2.1"
+    },
+    {
+      "type": "library",
+      "name": "serve-static",
+      "version": "^2.2.0",
+      "purl": "pkg:npm/serve-static@^2.2.0",
+      "bom-ref": "npm/serve-static@^2.2.0"
+    },
+    {
+      "type": "library",
+      "name": "shx",
+      "version": "^0.4.0",
+      "purl": "pkg:npm/shx@^0.4.0",
+      "bom-ref": "npm/shx@^0.4.0"
+    },
+    {
+      "type": "library",
+      "name": "threads",
+      "version": "^1.6.5",
+      "purl": "pkg:npm/threads@^1.6.5",
+      "bom-ref": "npm/threads@^1.6.5"
+    },
+    {
+      "type": "library",
+      "name": "topojson-client",
+      "version": "^3.1.0",
+      "purl": "pkg:npm/topojson-client@^3.1.0",
+      "bom-ref": "npm/topojson-client@^3.1.0"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "6.0.3",
+      "purl": "pkg:npm/typescript@6.0.3",
+      "bom-ref": "npm/typescript@6.0.3"
+    },
+    {
+      "type": "library",
+      "name": "vite",
+      "version": "^8.1.5",
+      "purl": "pkg:npm/vite@^8.1.5",
+      "bom-ref": "npm/vite@^8.1.5"
+    },
+    {
+      "type": "library",
+      "name": "vitest",
+      "version": "^4.1.8",
+      "purl": "pkg:npm/vitest@^4.1.8",
+      "bom-ref": "npm/vitest@^4.1.8"
+    },
+    {
+      "type": "library",
+      "name": "walk",
+      "version": "^2.3.9",
+      "purl": "pkg:npm/walk@^2.3.9",
+      "bom-ref": "npm/walk@^2.3.9"
+    },
+    {
+      "type": "library",
+      "name": "yargs",
+      "version": "^18.0.0",
+      "purl": "pkg:npm/yargs@^18.0.0",
+      "bom-ref": "npm/yargs@^18.0.0"
+    }
+  ]
+}
